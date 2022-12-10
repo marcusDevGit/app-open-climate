@@ -1,5 +1,5 @@
 /*Gerais*/
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Ubuntu", sans-serif;
@@ -81,12 +81,17 @@ body {
     margin: .6rem 0;
 }
 
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 #details_container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#details_container #umidity {
+#details_container #humidity {
     border-right: 1px solid #fff;
     margin: .6rem;
     padding: .6rem;
